@@ -70,6 +70,7 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx_rtd_theme",
     "sphinx.ext.extlinks",
+    "sphinx.ext.intersphinx",
 ]
 
 templates_path = ["_templates"]
@@ -123,6 +124,11 @@ del frozen_locals
 html_css_files = [
     "css/color-roles.css",
 ]
+
+intersphinx_mapping = {
+    "rpi-starter-kit": ("https://docs.freenove.com/projects/rpi-starter-kit/en/latest/", None),
+}
+intersphinx_disabled_reftypes = ["*"]
 
 
 def setup(app):
