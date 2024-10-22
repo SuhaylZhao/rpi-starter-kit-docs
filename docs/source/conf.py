@@ -12,8 +12,8 @@ import sys
 
 sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 
-
-os.system("git clone --depth 1 https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi freenove_kit")
+# os.system("rm -r freenove_kit")
+# os.system("git clone --depth 1 https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi freenove_kit")
 
 
 def prepend_to_file(file_path, content):
@@ -94,7 +94,7 @@ html_theme_options = {
     "navigation_depth": -1,
     "version_selector": True,
     "includehidden": True,
-    "flyout_display": "attached",
+    # "flyout_display": "attached",
     # 'style_nav_header_background': '#005500',
 }
 
