@@ -1,6 +1,6 @@
 
 ###########################
-fnk0066-docs documentation
+freenove documentation for raspberry pi starter kit
 ###########################
 
 .. :doc:`/fnk0020/fnk0020`
