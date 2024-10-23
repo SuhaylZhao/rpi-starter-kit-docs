@@ -238,7 +238,7 @@ Open the terminal and type following command. :red:`If this command doesn’t wo
 
 .. code-block:: console
 
-    ssh pi@raspberrypi.local
+    $ ssh pi@raspberrypi.local
 
 The password is **raspberry** by default, case sensitive. You may need to type **yes** during the process.
 
@@ -254,7 +254,7 @@ Open the terminal and type following command.
 
 .. code-block:: console
 
-    ssh pi@192.168.1.95
+    $ ssh pi@192.168.1.95
 
 When you see :red:`pi@raspberrypi:`:blue:`~ $`, you have logged in Pi successfully. Then you can skip to next section.
 
@@ -269,7 +269,7 @@ Press `Win+R`. Enter `cmd`. Then use this command to check IP:
 
 .. code-block:: console
 
-    ping -4 raspberrypi.local
+    $ ping -4 raspberrypi.local
 
 .. image:: ../_static/imgs/install-system-19.png
 
@@ -278,13 +278,13 @@ Press `Win+R`. Enter `cmd`. Then use this command to check IP:
 
 .. code-block:: console
     
-    ssh pi@xxxxxxxxxxx(IP address)
+    $ ssh pi@xxxxxxxxxxx(IP address)
 
 Enter the following command:
 
 .. code-block:: console
     
-    ssh pi@192.168.1.95
+    $ ssh pi@192.168.1.95
 
 .. image:: ../_static/imgs/install-system-20.png
 
@@ -298,7 +298,7 @@ Type the following command. And select Interface Options->P5 VNC -> Enter->Yes->
 
 .. code-block:: console
     
-    sudo raspi-config
+    $ sudo raspi-config
 
 .. image:: ../_static/imgs/install-system-21.png
 
