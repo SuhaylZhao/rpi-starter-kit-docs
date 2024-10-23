@@ -56,7 +56,7 @@ print("hello")
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "fnk0066-docs"
-copyright = "2016 - " + str(datetime.now().year) + ", freenove"
+copyright = "2016 - " + str(datetime.now().year) + ", support@freenove.com"
 author = "freenove"
 release = "v1.0"
 version = "v1.0"

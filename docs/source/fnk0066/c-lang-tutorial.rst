@@ -13,6 +13,11 @@ C language tutorial
    codes/preface/preface.rst
    codes/preface/raspberrypi.rst
    codes/preface/install-system.rst
+
+.. toctree::
+   :titlesonly: 
+   :caption: Preparation
+   
    codes/preface/preparation.rst
 
 .. toctree::

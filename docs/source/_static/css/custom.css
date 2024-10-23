@@ -84,3 +84,12 @@
 .dropdown-checkbox .dropbtn:hover {
     background-color: #3e8e41
 }
+
+.product-table td{
+    white-space: normal !important;
+}
+
+.product-image{
+    max-width: 120px;
+    width: 120px;
+}
